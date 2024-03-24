@@ -1,0 +1,38 @@
+import SectionSvg from "../assets/svg/SectionSvg";
+import React from "react";
+
+const Section = ({
+  className,
+  id,
+  crosses,
+  crossesOffset,
+  customPaddings,
+  children,
+}) => {
+  return (
+    <div
+      id={id}
+      className={`relative ${
+        customPaddings ||
+        `py-10 lg:py-16 ${crosses ? "lg:py-32" : ""} ${className || ""}`
+      }`}
+    >
+      {children}
+      <div className="hidden absolute top-0 left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:left-7.5" />
+      <div className="hidden absolute top-0 left-5 w-0.25 h-full bg-stroke-1 pointer-events-none md:block lg:right-7.5" />
+
+      {crosses && (
+        <>
+          <div
+            className={`hidden absolute top-0 left-7.5 right-7.5 h-0.25 bg-stroke-1 ${
+              crossesOffset && crossesOffset
+            } pointer-events-none`}
+          />
+          <SectionSvg crossesOffset={crossesOffset} />
+        </>
+      )}
+    </div>
+  );
+};
+
+export default Section;
