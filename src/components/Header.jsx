@@ -1,4 +1,4 @@
-import { brainwave } from "../assets";
+import brainwave  from "../assets/brainwave.svg";
 import { navigation } from "../constants/index";
 import { useLocation } from "react-router-dom";
 import Button from "./Button";
