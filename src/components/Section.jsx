@@ -10,7 +10,7 @@ const Section = ({
       id={id}
       className={`relative ${
         customPaddings ||
-        `py-10 lg:py-16 ${crosses ? "lg:py-32" : ""} ${className || ""}`
+        `py-10 lg:py-16  ${className || ""}`
       }`}
     >
       {children}
