@@ -2,6 +2,7 @@ import { collabContent, collabText } from "../constants"
 import Section from "./Section"
 import check from '../assets/check.svg'
 import Button from "./Button"
+import brainwaveSymbol from 
 const Collaboration = () => {
   return (
     <Section>
