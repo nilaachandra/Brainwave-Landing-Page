@@ -40,6 +40,6 @@ Technologies used in the project:
 *   Vite
 *   React Just Parallax
 
-<h2>acknowledgement</h2>
+<h2>Acknowledgement</h2>
 
 Special thanks to JS Mastery on YouTube for coming up with this project. Through this project I learnt a lot of React and Tailwind Concepts like creating Reusable Components Routing Tailwind Best Practices and responsive design. It also cleared my confusions that I had with absolute and relative positioning in CSS.
