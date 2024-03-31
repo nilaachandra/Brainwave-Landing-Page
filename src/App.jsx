@@ -7,7 +7,7 @@ import Header from './components/Header'
 import Pricing from './components/Pricing'
 import Roadmap from './components/Roadmap'
 import Services from './components/Services'
-import Hero from './components/hero/Hero'
+import Hero from './components/Hero'
 const App = () => {
  
 
